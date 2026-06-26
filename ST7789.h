@@ -13,8 +13,8 @@
 #define ST7789_PIN_SCK   18   // SCL  -> GP18
 #define ST7789_PIN_MOSI  19   // SDA  -> GP19
 #define ST7789_PIN_CS    17   // CSX  -> GP17
-#define ST7789_PIN_DC    20   // DCX  -> GP20
-#define ST7789_PIN_RST   21   // REST -> GP21
+#define ST7789_PIN_DC    14   // DCX  -> GP20
+#define ST7789_PIN_RST   15   // REST -> GP21
 #define ST7789_PIN_BL    22   // LEDA/backlight -> GP22 (driven on at init)
 
 // Panel size. Most square ST7789 boards are 240x240; tall ones are 240x320.
